@@ -7,17 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D003308C17AE41A1007C96DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003308B17AE41A1007C96DA /* UIKit.framework */; };
-		D003308E17AE41A1007C96DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003308D17AE41A1007C96DA /* Foundation.framework */; };
-		D003309017AE41A1007C96DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003308F17AE41A1007C96DA /* CoreGraphics.framework */; };
 		D003309617AE41A1007C96DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D003309417AE41A1007C96DA /* InfoPlist.strings */; };
 		D003309817AE41A1007C96DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D003309717AE41A1007C96DA /* main.m */; };
 		D003309C17AE41A1007C96DA /* netraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D003309B17AE41A1007C96DA /* netraAppDelegate.m */; };
 		D003309E17AE41A1007C96DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D003309D17AE41A1007C96DA /* Default.png */; };
 		D00330A017AE41A1007C96DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D003309F17AE41A1007C96DA /* Default@2x.png */; };
 		D00330A217AE41A1007C96DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00330A117AE41A1007C96DA /* Default-568h@2x.png */; };
-		D00330B217AE78C2007C96DA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00330B117AE78C2007C96DA /* Accounts.framework */; };
-		D00330B417AE78C8007C96DA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00330B317AE78C8007C96DA /* Social.framework */; };
 		D00330CE17AE7C1A007C96DA /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D00330BC17AE7C1A007C96DA /* AFHTTPClient.m */; };
 		D00330CF17AE7C1A007C96DA /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D00330BE17AE7C1A007C96DA /* AFHTTPRequestOperation.m */; };
 		D00330D017AE7C1A007C96DA /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D00330C017AE7C1A007C96DA /* AFImageRequestOperation.m */; };
@@ -27,7 +22,6 @@
 		D00330D417AE7C1A007C96DA /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D00330C917AE7C1A007C96DA /* AFURLConnectionOperation.m */; };
 		D00330D517AE7C1A007C96DA /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D00330CB17AE7C1A007C96DA /* AFXMLRequestOperation.m */; };
 		D00330D617AE7C1A007C96DA /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D00330CD17AE7C1A007C96DA /* UIImageView+AFNetworking.m */; };
-		D00330D817AE7C25007C96DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00330D717AE7C25007C96DA /* Security.framework */; };
 		D00330DA17AE7C80007C96DA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D00330D917AE7C80007C96DA /* .gitignore */; };
 		D003311817AE9F78007C96DA /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D00330E017AE9F78007C96DA /* MagicalImportFunctions.m */; };
 		D003311917AE9F78007C96DA /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = D00330E217AE9F78007C96DA /* NSAttributeDescription+MagicalDataImport.m */; };
@@ -55,14 +49,20 @@
 		D003312F17AE9F78007C96DA /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = D003311117AE9F78007C96DA /* MagicalRecord+Setup.m */; };
 		D003313017AE9F78007C96DA /* MagicalRecord+ShorthandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D003311317AE9F78007C96DA /* MagicalRecord+ShorthandSupport.m */; };
 		D003313117AE9F78007C96DA /* MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D003311517AE9F78007C96DA /* MagicalRecord.m */; };
-		D003313317AE9F81007C96DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003313217AE9F81007C96DA /* CoreData.framework */; };
-		D003313517AEA027007C96DA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003313417AEA027007C96DA /* MobileCoreServices.framework */; };
 		D003313C17AEA50D007C96DA /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D003313917AEA50D007C96DA /* JASidePanelController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D003313D17AEA50D007C96DA /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D003313B17AEA50D007C96DA /* UIViewController+JASidePanel.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
-		D003313F17AEA563007C96DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003313E17AEA563007C96DA /* QuartzCore.framework */; };
 		D003314617AEA61F007C96DA /* mainviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D003314517AEA61F007C96DA /* mainviewController.m */; };
 		D003314A17AEA644007C96DA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D003314917AEA644007C96DA /* LeftViewController.m */; };
 		D003314D17AEA654007C96DA /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D003314C17AEA654007C96DA /* CommentViewController.m */; };
+		D003314E17AEA9E5007C96DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003313E17AEA563007C96DA /* QuartzCore.framework */; };
+		D003314F17AEA9E5007C96DA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003313417AEA027007C96DA /* MobileCoreServices.framework */; };
+		D003315017AEA9E5007C96DA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003313217AE9F81007C96DA /* CoreData.framework */; };
+		D003315117AEA9E5007C96DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00330D717AE7C25007C96DA /* Security.framework */; };
+		D003315217AEA9E5007C96DA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00330B317AE78C8007C96DA /* Social.framework */; };
+		D003315317AEA9E5007C96DA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00330B117AE78C2007C96DA /* Accounts.framework */; };
+		D003315417AEA9E5007C96DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003308B17AE41A1007C96DA /* UIKit.framework */; };
+		D003315517AEA9E5007C96DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003308D17AE41A1007C96DA /* Foundation.framework */; };
+		D003315617AEA9E5007C96DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003308F17AE41A1007C96DA /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,15 +176,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D003313F17AEA563007C96DA /* QuartzCore.framework in Frameworks */,
-				D003313517AEA027007C96DA /* MobileCoreServices.framework in Frameworks */,
-				D003313317AE9F81007C96DA /* CoreData.framework in Frameworks */,
-				D00330D817AE7C25007C96DA /* Security.framework in Frameworks */,
-				D00330B417AE78C8007C96DA /* Social.framework in Frameworks */,
-				D00330B217AE78C2007C96DA /* Accounts.framework in Frameworks */,
-				D003308C17AE41A1007C96DA /* UIKit.framework in Frameworks */,
-				D003308E17AE41A1007C96DA /* Foundation.framework in Frameworks */,
-				D003309017AE41A1007C96DA /* CoreGraphics.framework in Frameworks */,
+				D003314E17AEA9E5007C96DA /* QuartzCore.framework in Frameworks */,
+				D003314F17AEA9E5007C96DA /* MobileCoreServices.framework in Frameworks */,
+				D003315017AEA9E5007C96DA /* CoreData.framework in Frameworks */,
+				D003315117AEA9E5007C96DA /* Security.framework in Frameworks */,
+				D003315217AEA9E5007C96DA /* Social.framework in Frameworks */,
+				D003315317AEA9E5007C96DA /* Accounts.framework in Frameworks */,
+				D003315417AEA9E5007C96DA /* UIKit.framework in Frameworks */,
+				D003315517AEA9E5007C96DA /* Foundation.framework in Frameworks */,
+				D003315617AEA9E5007C96DA /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +194,7 @@
 		D003307F17AE41A0007C96DA = {
 			isa = PBXGroup;
 			children = (
-				D003313E17AEA563007C96DA /* QuartzCore.framework */,
-				D003313417AEA027007C96DA /* MobileCoreServices.framework */,
-				D003313217AE9F81007C96DA /* CoreData.framework */,
 				D00330D917AE7C80007C96DA /* .gitignore */,
-				D00330D717AE7C25007C96DA /* Security.framework */,
-				D00330B317AE78C8007C96DA /* Social.framework */,
-				D00330B117AE78C2007C96DA /* Accounts.framework */,
 				D003309117AE41A1007C96DA /* BuswayTrap */,
 				D003308A17AE41A1007C96DA /* Frameworks */,
 				D003308917AE41A1007C96DA /* Products */,
@@ -218,6 +212,12 @@
 		D003308A17AE41A1007C96DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D003313E17AEA563007C96DA /* QuartzCore.framework */,
+				D003313417AEA027007C96DA /* MobileCoreServices.framework */,
+				D003313217AE9F81007C96DA /* CoreData.framework */,
+				D00330D717AE7C25007C96DA /* Security.framework */,
+				D00330B317AE78C8007C96DA /* Social.framework */,
+				D00330B117AE78C2007C96DA /* Accounts.framework */,
 				D003308B17AE41A1007C96DA /* UIKit.framework */,
 				D003308D17AE41A1007C96DA /* Foundation.framework */,
 				D003308F17AE41A1007C96DA /* CoreGraphics.framework */,
