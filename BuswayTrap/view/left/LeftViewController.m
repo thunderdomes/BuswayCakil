@@ -1,18 +1,18 @@
 //
-//  netraViewController.m
+//  LeftViewController.m
 //  BuswayTrap
 //
 //  Created by Arie on 8/4/13.
 //  Copyright (c) 2013 netra. All rights reserved.
 //
 
-#import "netraViewController.h"
+#import "LeftViewController.h"
 
-@interface netraViewController ()
+@interface LeftViewController ()
 
 @end
 
-@implementation netraViewController
+@implementation LeftViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

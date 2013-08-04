@@ -1,5 +1,5 @@
 //
-//  netraAppDelegate.h
+//  CommentViewController.h
 //  BuswayTrap
 //
 //  Created by Arie on 8/4/13.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface netraAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@interface CommentViewController : UIViewController
 
 @end
