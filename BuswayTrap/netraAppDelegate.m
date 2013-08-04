@@ -9,10 +9,23 @@
 #import "netraAppDelegate.h"
 
 @implementation netraAppDelegate
-
+@synthesize menu=_menu;
+@synthesize center=_center;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	 [MagicalRecord setupCoreDataStackWithStoreNamed:@"MyDatabase.sqlite"];
+	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	//initial window
+	
+	_menu=[[LeftViewController alloc]init];
+	
+	_center=[[mainviewController alloc]init];
+	
+	self.viewController = [[JASidePanelController alloc] init];
+	self.viewController.leftPanel = _menu;
+	self.viewController.centerPanel = [[UINavigationController alloc] initWithRootViewController:_center];
+    self.viewController.shouldDelegateAutorotateToVisiblePanel = NO;
+	self.window.rootViewController = self.viewController;
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     return YES;
@@ -43,6 +56,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
 	// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+	[MagicalRecord cleanUp];
 }
 
 @end
