@@ -63,6 +63,9 @@
 		D003315417AEA9E5007C96DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003308B17AE41A1007C96DA /* UIKit.framework */; };
 		D003315517AEA9E5007C96DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003308D17AE41A1007C96DA /* Foundation.framework */; };
 		D003315617AEA9E5007C96DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003308F17AE41A1007C96DA /* CoreGraphics.framework */; };
+		D0CFB46417AEF6FF002D7C3F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB46317AEF6FF002D7C3F /* LoginViewController.m */; };
+		D0CFB46717AEF730002D7C3F /* timeLineObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB46617AEF730002D7C3F /* timeLineObject.m */; };
+		D0CFB46A17AEFE5B002D7C3F /* BuswayTrap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB46817AEFE5B002D7C3F /* BuswayTrap.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +172,11 @@
 		D003314917AEA644007C96DA /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		D003314B17AEA654007C96DA /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
 		D003314C17AEA654007C96DA /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		D0CFB46217AEF6FF002D7C3F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D0CFB46317AEF6FF002D7C3F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D0CFB46517AEF730002D7C3F /* timeLineObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeLineObject.h; sourceTree = "<group>"; };
+		D0CFB46617AEF730002D7C3F /* timeLineObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timeLineObject.m; sourceTree = "<group>"; };
+		D0CFB46917AEFE5B002D7C3F /* BuswayTrap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuswayTrap.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +236,7 @@
 		D003309117AE41A1007C96DA /* BuswayTrap */ = {
 			isa = PBXGroup;
 			children = (
+				D0CFB45E17AEF6D8002D7C3F /* model */,
 				D00330A817AE7791007C96DA /* library */,
 				D00330AC17AE7791007C96DA /* view */,
 				D003309A17AE41A1007C96DA /* netraAppDelegate.h */,
@@ -290,6 +299,7 @@
 		D00330AC17AE7791007C96DA /* view */ = {
 			isa = PBXGroup;
 			children = (
+				D0CFB46117AEF6F0002D7C3F /* login */,
 				D003314717AEA634007C96DA /* left */,
 				D003314017AEA607007C96DA /* camera */,
 				D003314117AEA607007C96DA /* center */,
@@ -500,6 +510,41 @@
 			path = left;
 			sourceTree = "<group>";
 		};
+		D0CFB45E17AEF6D8002D7C3F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D0CFB45F17AEF6D8002D7C3F /* CoreData */,
+				D0CFB46017AEF6D8002D7C3F /* jsonObject */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D0CFB45F17AEF6D8002D7C3F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D0CFB46817AEFE5B002D7C3F /* BuswayTrap.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D0CFB46017AEF6D8002D7C3F /* jsonObject */ = {
+			isa = PBXGroup;
+			children = (
+				D0CFB46517AEF730002D7C3F /* timeLineObject.h */,
+				D0CFB46617AEF730002D7C3F /* timeLineObject.m */,
+			);
+			path = jsonObject;
+			sourceTree = "<group>";
+		};
+		D0CFB46117AEF6F0002D7C3F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				D0CFB46217AEF6FF002D7C3F /* LoginViewController.h */,
+				D0CFB46317AEF6FF002D7C3F /* LoginViewController.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -609,6 +654,9 @@
 				D003314617AEA61F007C96DA /* mainviewController.m in Sources */,
 				D003314A17AEA644007C96DA /* LeftViewController.m in Sources */,
 				D003314D17AEA654007C96DA /* CommentViewController.m in Sources */,
+				D0CFB46417AEF6FF002D7C3F /* LoginViewController.m in Sources */,
+				D0CFB46717AEF730002D7C3F /* timeLineObject.m in Sources */,
+				D0CFB46A17AEFE5B002D7C3F /* BuswayTrap.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,8 +771,22 @@
 				D00330A717AE41A1007C96DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0CFB46817AEFE5B002D7C3F /* BuswayTrap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0CFB46917AEFE5B002D7C3F /* BuswayTrap.xcdatamodel */,
+			);
+			currentVersion = D0CFB46917AEFE5B002D7C3F /* BuswayTrap.xcdatamodel */;
+			path = BuswayTrap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D003308017AE41A0007C96DA /* Project object */;
 }
