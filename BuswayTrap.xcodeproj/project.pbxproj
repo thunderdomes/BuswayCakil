@@ -66,6 +66,8 @@
 		D0CFB46417AEF6FF002D7C3F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB46317AEF6FF002D7C3F /* LoginViewController.m */; };
 		D0CFB46717AEF730002D7C3F /* timeLineObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB46617AEF730002D7C3F /* timeLineObject.m */; };
 		D0CFB46A17AEFE5B002D7C3F /* BuswayTrap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB46817AEFE5B002D7C3F /* BuswayTrap.xcdatamodeld */; };
+		D0CFB47917AF0081002D7C3F /* netra.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB47817AF0081002D7C3F /* netra.m */; };
+		D0CFB47C17AF0095002D7C3F /* jsonFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB47B17AF0095002D7C3F /* jsonFetch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -177,6 +179,10 @@
 		D0CFB46517AEF730002D7C3F /* timeLineObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeLineObject.h; sourceTree = "<group>"; };
 		D0CFB46617AEF730002D7C3F /* timeLineObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = timeLineObject.m; sourceTree = "<group>"; };
 		D0CFB46917AEFE5B002D7C3F /* BuswayTrap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuswayTrap.xcdatamodel; sourceTree = "<group>"; };
+		D0CFB47717AF0081002D7C3F /* netra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netra.h; sourceTree = "<group>"; };
+		D0CFB47817AF0081002D7C3F /* netra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netra.m; sourceTree = "<group>"; };
+		D0CFB47A17AF0095002D7C3F /* jsonFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsonFetch.h; sourceTree = "<group>"; };
+		D0CFB47B17AF0095002D7C3F /* jsonFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jsonFetch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +242,8 @@
 		D003309117AE41A1007C96DA /* BuswayTrap */ = {
 			isa = PBXGroup;
 			children = (
+				D0CFB47617AF0072002D7C3F /* image */,
+				D0CFB47317AF004A002D7C3F /* common */,
 				D0CFB45E17AEF6D8002D7C3F /* model */,
 				D00330A817AE7791007C96DA /* library */,
 				D00330AC17AE7791007C96DA /* view */,
@@ -545,6 +553,40 @@
 			path = login;
 			sourceTree = "<group>";
 		};
+		D0CFB47317AF004A002D7C3F /* common */ = {
+			isa = PBXGroup;
+			children = (
+				D0CFB47417AF005F002D7C3F /* JsonFetcher */,
+				D0CFB47517AF005F002D7C3F /* netra */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		D0CFB47417AF005F002D7C3F /* JsonFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				D0CFB47A17AF0095002D7C3F /* jsonFetch.h */,
+				D0CFB47B17AF0095002D7C3F /* jsonFetch.m */,
+			);
+			path = JsonFetcher;
+			sourceTree = "<group>";
+		};
+		D0CFB47517AF005F002D7C3F /* netra */ = {
+			isa = PBXGroup;
+			children = (
+				D0CFB47717AF0081002D7C3F /* netra.h */,
+				D0CFB47817AF0081002D7C3F /* netra.m */,
+			);
+			path = netra;
+			sourceTree = "<group>";
+		};
+		D0CFB47617AF0072002D7C3F /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -657,6 +699,8 @@
 				D0CFB46417AEF6FF002D7C3F /* LoginViewController.m in Sources */,
 				D0CFB46717AEF730002D7C3F /* timeLineObject.m in Sources */,
 				D0CFB46A17AEFE5B002D7C3F /* BuswayTrap.xcdatamodeld in Sources */,
+				D0CFB47917AF0081002D7C3F /* netra.m in Sources */,
+				D0CFB47C17AF0095002D7C3F /* jsonFetch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
