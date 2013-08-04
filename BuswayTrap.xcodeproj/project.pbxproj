@@ -60,6 +60,9 @@
 		D003313C17AEA50D007C96DA /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D003313917AEA50D007C96DA /* JASidePanelController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D003313D17AEA50D007C96DA /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D003313B17AEA50D007C96DA /* UIViewController+JASidePanel.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		D003313F17AEA563007C96DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D003313E17AEA563007C96DA /* QuartzCore.framework */; };
+		D003314617AEA61F007C96DA /* mainviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D003314517AEA61F007C96DA /* mainviewController.m */; };
+		D003314A17AEA644007C96DA /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D003314917AEA644007C96DA /* LeftViewController.m */; };
+		D003314D17AEA654007C96DA /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D003314C17AEA654007C96DA /* CommentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +163,12 @@
 		D003313A17AEA50D007C96DA /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
 		D003313B17AEA50D007C96DA /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
 		D003313E17AEA563007C96DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D003314417AEA61F007C96DA /* mainviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainviewController.h; sourceTree = "<group>"; };
+		D003314517AEA61F007C96DA /* mainviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainviewController.m; sourceTree = "<group>"; };
+		D003314817AEA644007C96DA /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		D003314917AEA644007C96DA /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		D003314B17AEA654007C96DA /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		D003314C17AEA654007C96DA /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +290,10 @@
 		D00330AC17AE7791007C96DA /* view */ = {
 			isa = PBXGroup;
 			children = (
+				D003314717AEA634007C96DA /* left */,
+				D003314017AEA607007C96DA /* camera */,
+				D003314117AEA607007C96DA /* center */,
+				D003314217AEA607007C96DA /* comment */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -453,6 +466,40 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		D003314017AEA607007C96DA /* camera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		D003314117AEA607007C96DA /* center */ = {
+			isa = PBXGroup;
+			children = (
+				D003314417AEA61F007C96DA /* mainviewController.h */,
+				D003314517AEA61F007C96DA /* mainviewController.m */,
+			);
+			path = center;
+			sourceTree = "<group>";
+		};
+		D003314217AEA607007C96DA /* comment */ = {
+			isa = PBXGroup;
+			children = (
+				D003314B17AEA654007C96DA /* CommentViewController.h */,
+				D003314C17AEA654007C96DA /* CommentViewController.m */,
+			);
+			path = comment;
+			sourceTree = "<group>";
+		};
+		D003314717AEA634007C96DA /* left */ = {
+			isa = PBXGroup;
+			children = (
+				D003314817AEA644007C96DA /* LeftViewController.h */,
+				D003314917AEA644007C96DA /* LeftViewController.m */,
+			);
+			path = left;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -559,6 +606,9 @@
 				D003313117AE9F78007C96DA /* MagicalRecord.m in Sources */,
 				D003313C17AEA50D007C96DA /* JASidePanelController.m in Sources */,
 				D003313D17AEA50D007C96DA /* UIViewController+JASidePanel.m in Sources */,
+				D003314617AEA61F007C96DA /* mainviewController.m in Sources */,
+				D003314A17AEA644007C96DA /* LeftViewController.m in Sources */,
+				D003314D17AEA654007C96DA /* CommentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
