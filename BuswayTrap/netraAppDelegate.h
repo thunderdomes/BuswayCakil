@@ -7,10 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "netraViewController.h"
 @interface netraAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property(strong,nonatomic) netraViewController *mainc;
 
 @end
