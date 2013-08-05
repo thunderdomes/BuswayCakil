@@ -26,6 +26,7 @@
 	self.viewController.leftPanel = _menu;
 	self.viewController.centerPanel = [[UINavigationController alloc] initWithRootViewController:_center];
     self.viewController.shouldDelegateAutorotateToVisiblePanel = NO;
+	[[UINavigationBar appearance]setBackgroundImage:[UIImage imageNamed:@"navbar"] forBarMetrics:UIBarMetricsDefault];
 	self.window.rootViewController = self.viewController;
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];

@@ -69,6 +69,7 @@
 		D0CFB47917AF0081002D7C3F /* netra.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB47817AF0081002D7C3F /* netra.m */; };
 		D0CFB47C17AF0095002D7C3F /* jsonFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CFB47B17AF0095002D7C3F /* jsonFetch.m */; };
 		D0CFB47F17AF0109002D7C3F /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0CFB47E17AF0109002D7C3F /* menu.plist */; };
+		D0DFAB6117AF884500129543 /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0DFAB6017AF884500129543 /* navbar@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -185,6 +186,7 @@
 		D0CFB47A17AF0095002D7C3F /* jsonFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsonFetch.h; sourceTree = "<group>"; };
 		D0CFB47B17AF0095002D7C3F /* jsonFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jsonFetch.m; sourceTree = "<group>"; };
 		D0CFB47E17AF0109002D7C3F /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menu.plist; sourceTree = "<group>"; };
+		D0DFAB6017AF884500129543 /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -586,6 +588,7 @@
 		D0CFB47617AF0072002D7C3F /* image */ = {
 			isa = PBXGroup;
 			children = (
+				D0DFAB6017AF884500129543 /* navbar@2x.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -656,6 +659,7 @@
 				D00330A217AE41A1007C96DA /* Default-568h@2x.png in Resources */,
 				D00330DA17AE7C80007C96DA /* .gitignore in Resources */,
 				D0CFB47F17AF0109002D7C3F /* menu.plist in Resources */,
+				D0DFAB6117AF884500129543 /* navbar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
