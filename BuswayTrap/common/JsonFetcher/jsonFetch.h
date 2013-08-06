@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface jsonFetch : NSObject
-
+#import "AFHTTPClient.h"
+@interface jsonFetch : AFHTTPClient
++ (id)sharedInstance;
 @end
